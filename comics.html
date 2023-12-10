@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta http-equip="X-UA-Compatible" content="IE = edge">
+    <meta name="viewport" content="widht= device-width, initial-scale = 1/0">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <title>Магазин игрушек</title>
+</head>
+<body>
+<header class="transparent-header">
+    <div class="logo">
+
+        <h1>Магазин игрушек "AirKids"</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная </a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="allbooks.html">Фирмы</a></li>
+            <li><a href="comics.html">Каталог</a></li>
+            <li><a href="buy.html"> Войти </a></li>
+
+        </ul>
+    </nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</header>
+
+<article class="news">
+    <h2>Каталог самых крутых игрушек</h2>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="images/hot_wheels_car.jpeg" alt="Изображение" width="250px">
+        </div>
+        <div class="grid-item">
+            <p>
+            <h2> Hot wheels машинка </h2></p>
+            Вселенная Marvel - вымышленная общая вселенная, в которой происходят истории большинства американских
+            комиксов и других средств массовой информации, опубликованных Marvel Comics.</p>
+
+            <div class="frame">
+                <button class="custom-btn btn-3" id="incrementButton"
+                        onclick="redirectToUrl('https://www.marvel.com/#')">
+                    <span>Узнать больше</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <p>
+            <h2> Lol кукла </h2></p>
+            Одно из крупнейших и наиболее популярных издательств комиксов. Издательство было куплено компанией Warner
+            Bros. Entertainment в 1969 году.</p>
+            <div class="frame">
+                <button class="custom-btn btn-3" id="incrementButton" onclick="redirectToUrl('https://www.dc.com/')">
+                    <span>Узнать больше</span>
+                </button>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="images/lol_doll.jpg" alt="Изображение" width="250px">
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="images/barbie_do.jpg" alt="Изображение" width="250px">
+        </div>
+        <div class="grid-item">
+            <p>
+            <h2> Barbie кукла </h2></p>
+            Bubble Comics — специализирующийся на комиксах российский издательский дом, созданный журналистом Артёмом
+            Габреляновым в 2011 году. Является крупнейшим издательством оригинальных комиксов в России</p>
+
+            <div class="frame">
+                <button class="custom-btn btn-3" id="incrementButton" onclick="redirectToUrl('https://bubble.ru/')">
+                    <span>Узнать больше</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</article>
+
+<section>
+
+   <footer>
+        <div class="foot">
+            <div class="contact-info">
+                <a name="конец страницы" id="связь"><h4>Cвязаться с нами</h4></a>
+                <ul>
+                    <li><a href="#">голубиная почта</a><br></li>
+                    <address>
+                        <li><a href="mailto:obeliskbooks@gmail.com">написать письмо</a><br></li>
+                        <li><a href="tel:89347285674">по телефону</a><br></li>
+                    </address>
+            </div>
+            <div class="quick-links">
+                <h4>Быстрые ссылки</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Помощь</a></li>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                </ul>
+            </div>
+            <a href="#начало"> Вернуться в начало страницы</a>
+        </div>
+        <div class="spaci">
+            <div class="body1">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+                <div class="middle">
+                    <a class='btn' href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class='btn' href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a class='btn' href="#">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</section>
+</body>
+</html>
